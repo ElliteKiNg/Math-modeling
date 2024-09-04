@@ -1,0 +1,82 @@
+#include <iostream>
+using namespace std;
+int c;
+
+int random() {
+    int a = c * c;
+    if (a > 999)
+        c = ((a - (c % 10)) / 10) % 100;
+    else if (a > 99)
+        c = (a - (c % 10)) / 10;
+    else
+        c = 0;
+    return c;
+}
+
+int main() {
+    c = 11;
+    cout << "c = 11" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 17;
+    cout << "c = 17" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 28;
+    cout << "c = 28" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 42;
+    cout << "c = 42" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 46;
+    cout << "c = 46" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 54;
+    cout << "c = 54" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 76;
+    cout << "c = 76" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 77;
+    cout << "c = 77" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 89;
+    cout << "c = 89" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 91;
+    cout << "c = 91" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 92;
+    cout << "c = 92" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+}

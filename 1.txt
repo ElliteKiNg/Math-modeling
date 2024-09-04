@@ -1,0 +1,561 @@
+// В цикл при запуске цикла 13 раз не попадают следующие значения c: 11, 17, 28, 42, 46, 54, 76, 77, 89, 91, 92 их я предоставил в отдельном файле.
+
+
+#include <iostream>
+using namespace std;
+int c;
+
+int random() {
+    int a = c * c;
+    if (a > 999)
+        c = ((a - (c % 10)) / 10) % 100;
+    else if (a > 99)
+        c = (a - (c % 10)) / 10;
+    else
+        c = 0;
+    return c;
+}
+
+int main() {
+    c = 10;
+    cout << "c = 10" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 11;
+    cout << "c = 11" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 12;
+    cout << "c = 12" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 13;
+    cout << "c = 13" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 14;
+    cout << "c = 14" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 15;
+    cout << "c = 15" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 16;
+    cout << "c = 16" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 17;
+    cout << "c = 17" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 18;
+    cout << "c = 18" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 19;
+    cout << "c = 19" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 20;
+    cout << "c = 20" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 21;
+    cout << "c = 21" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 22;
+    cout << "c = 22" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 23;
+    cout << "c = 23" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 24;
+    cout << "c = 24" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 25;
+    cout << "c = 25" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 26;
+    cout << "c = 26" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 27;
+    cout << "c = 27" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 28;
+    cout << "c = 28" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 29;
+    cout << "c = 29" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 30;
+    cout << "c = 30" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 31;
+    cout << "c = 31" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 32;
+    cout << "c = 32" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 33;
+    cout << "c = 33" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 34;
+    cout << "c = 34" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 35;
+    cout << "c = 35" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 36;
+    cout << "c = 36" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 37;
+    cout << "c = 37" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 38;
+    cout << "c = 38" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 39;
+    cout << "c = 39" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 40;
+    cout << "c = 40" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 41;
+    cout << "c = 41" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 42;
+    cout << "c = 42" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 43;
+    cout << "c = 43" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 44;
+    cout << "c = 44" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 45;
+    cout << "c = 45" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 46;
+    cout << "c = 46" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 47;
+    cout << "c = 47" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 48;
+    cout << "c = 48" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 49;
+    cout << "c = 49" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 50;
+    cout << "c = 50" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 51;
+    cout << "c = 51" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 52;
+    cout << "c = 52" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 53;
+    cout << "c = 53" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 54;
+    cout << "c = 54" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 55;
+    cout << "c = 55" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 56;
+    cout << "c = 56" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 57;
+    cout << "c = 57" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 58;
+    cout << "c = 58" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 59;
+    cout << "c = 59" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 60;
+    cout << "c = 60" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 61;
+    cout << "c = 61" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 62;
+    cout << "c = 62" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 63;
+    cout << "c = 63" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 64;
+    cout << "c = 64" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 65;
+    cout << "c = 65" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 66;
+    cout << "c = 66" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 67;
+    cout << "c = 67" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 68;
+    cout << "c = 68" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 69;
+    cout << "c = 69" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 70;
+    cout << "c = 70" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 71;
+    cout << "c = 71" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 72;
+    cout << "c = 72" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 73;
+    cout << "c = 73" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 74;
+    cout << "c = 74" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 75;
+    cout << "c = 75" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 76;
+    cout << "c = 76" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 77;
+    cout << "c = 77" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 78;
+    cout << "c = 78" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 79;
+    cout << "c = 79" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 80;
+    cout << "c = 80" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 81;
+    cout << "c = 81" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 82;
+    cout << "c = 82" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 83;
+    cout << "c = 83" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 84;
+    cout << "c = 84" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 85;
+    cout << "c = 85" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 86;
+    cout << "c = 86" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 87;
+    cout << "c = 87" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 88;
+    cout << "c = 88" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 89;
+    cout << "c = 89" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 90;
+    cout << "c = 90" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 91;
+    cout << "c = 91" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 92;
+    cout << "c = 92" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 93;
+    cout << "c = 93" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 94;
+    cout << "c = 94" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 95;
+    cout << "c = 95" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 96;
+    cout << "c = 96" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 97;
+    cout << "c = 97" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 98;
+    cout << "c = 98" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    c = 99;
+    cout << "c = 99" << endl;
+    for (int i = 0; i < 13; i++)
+        cout << random() << endl;
+    cout << endl;
+
+    return 0;
+}
